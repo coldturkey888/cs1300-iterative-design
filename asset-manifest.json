@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cs1300-iterative-design/static/css/main.bcc82866.css",
-    "main.js": "/cs1300-iterative-design/static/js/main.ccbd18b0.js",
+    "main.css": "/cs1300-iterative-design/static/css/main.dc47fece.css",
+    "main.js": "/cs1300-iterative-design/static/js/main.0ce9648e.js",
     "static/js/787.5f52bc49.chunk.js": "/cs1300-iterative-design/static/js/787.5f52bc49.chunk.js",
     "static/media/user1.mp4": "/cs1300-iterative-design/static/media/user1.9dbf6cbcfc0d5c651c0e.mp4",
     "static/media/user2.mp4": "/cs1300-iterative-design/static/media/user2.0cea323a8649d6ccff14.mp4",
@@ -17,12 +17,12 @@
     "static/media/sketch4.png": "/cs1300-iterative-design/static/media/sketch4.08f3fc577dbefa000c5c.png",
     "static/media/sketch2.png": "/cs1300-iterative-design/static/media/sketch2.0552c6ffa93591a7c34b.png",
     "index.html": "/cs1300-iterative-design/index.html",
-    "main.bcc82866.css.map": "/cs1300-iterative-design/static/css/main.bcc82866.css.map",
-    "main.ccbd18b0.js.map": "/cs1300-iterative-design/static/js/main.ccbd18b0.js.map",
+    "main.dc47fece.css.map": "/cs1300-iterative-design/static/css/main.dc47fece.css.map",
+    "main.0ce9648e.js.map": "/cs1300-iterative-design/static/js/main.0ce9648e.js.map",
     "787.5f52bc49.chunk.js.map": "/cs1300-iterative-design/static/js/787.5f52bc49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcc82866.css",
-    "static/js/main.ccbd18b0.js"
+    "static/css/main.dc47fece.css",
+    "static/js/main.0ce9648e.js"
   ]
 }
