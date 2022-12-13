@@ -1,0 +1,98 @@
+.prototype-usertesting-top-left-corner {
+  position: absolute;
+  top: calc(5vh + 5 * 100vh);
+  left: 0;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #424344;
+  color: #ffffff;
+  font-size: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.prototype-usertesting-bottom-right-corner {
+  position: absolute;
+  bottom: calc(5vh - 5 * 100vh);
+  right: 0;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #95bae0;
+  color: #000000;
+  font-size: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.prototype-usertesting-bottom-right-corner:hover {
+  padding-right: 3rem;
+  background-color: #267bd1;
+  color: #ffffff;
+}
+
+.prototype-usertesting-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 80vw;
+}
+
+.prototype-usertesting-embed {
+  flex: 1;
+  margin-top: 1rem;
+  height: 70vh;
+}
+
+.prototype-usertesting-feedback {
+  flex: 2;
+  text-align: start;
+  margin-left: 50px;
+  height: 75vh;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.prototype-usertesting-tabs-container {
+  margin-top: 1rem;
+  width: 100%;
+  align-items: center;
+}
+
+.tab-panel-content {
+  height: 55vh;
+  overflow-y: scroll;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 5px 10px;
+}
+
+.table-first-column {
+  width: 35%;
+}
+
+.table-second-column {
+  width: 65%;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
+}

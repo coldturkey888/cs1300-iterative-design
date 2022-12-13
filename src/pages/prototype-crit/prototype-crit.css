@@ -1,0 +1,129 @@
+.prototype-crit-top-left-corner {
+  position: absolute;
+  top: calc(5vh + 4 * 100vh);
+  left: 0;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #424344;
+  color: #ffffff;
+  font-size: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.prototype-crit-bottom-right-corner {
+  position: absolute;
+  bottom: calc(5vh - 4 * 100vh);
+  right: 0;
+  padding: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #95bae0;
+  color: #000000;
+  font-size: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.prototype-crit-bottom-right-corner:hover {
+  padding-right: 3rem;
+  background-color: #267bd1;
+  color: #ffffff;
+}
+
+.prototype-crit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 80vw;
+}
+
+.prototype-crit-embed {
+  flex: 1;
+  margin-top: 1rem;
+  height: 70vh;
+}
+
+.prototype-crit-feedback {
+  flex: 2;
+  text-align: start;
+  margin-left: 50px;
+  height: 75vh;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.prototype-crit-tabs-container {
+  margin-top: 1rem;
+  width: 100%;
+  align-items: center;
+}
+
+.tab-panel {
+  font-size: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 5px 10px;
+}
+
+.table-first-column {
+  width: 35%;
+}
+
+.table-second-column {
+  width: 65%;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
+}
+
+.dot {
+  font-size: 0.8rem;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  font-size: 1rem;
+  margin-left: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#red {
+  color: rgb(219, 0, 0);
+}
+
+#green {
+  color: rgb(0, 165, 0);
+}
+
+#orange {
+  color: rgb(223, 145, 2);
+}
+
+.prototype-crit-accept-status {
+  font-size: 1rem;
+  height: auto;
+  margin-bottom: 0.3rem;
+}
